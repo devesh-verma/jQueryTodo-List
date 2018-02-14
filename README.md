@@ -64,7 +64,8 @@ $("span").click(function () {
 
 * This screenshot displays the same.
 
-![todo_bubbling_effect](READMEassets/todo1.gif)
+![todo_bubbling_effect](READMEassets/todo1c.gif)
+
 
 
 * In order to stop this effect we need to add an event listener to the span function i.e `function 2`.
@@ -76,7 +77,7 @@ $("span").click(function (event) {
     event.stopPropagation()
 });
 ```
-![todo_stop_bubbling_effect](READMEassets/todo2.gif)
+![todo_stop_bubbling_effect](READMEassets/todo2c.gif)
 
 * Complete code to delete the todo when X is clicked.
 ```js
@@ -87,4 +88,4 @@ $("span").click(function (event) {
     event.stopPropagation()
 });
 ```
-![todo_deletion_functionality](READMEassets/todo3.gif)
+![todo_deletion_functionality](READMEassets/todo3c.gif)
