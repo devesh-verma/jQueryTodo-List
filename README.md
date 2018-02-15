@@ -89,7 +89,7 @@ $("span").click(function (event) {
 });
 ```
 
-<p>
+<p align="center">
   <img src = "https://github.com/devshiva619/jQueryTodo-List/blob/master/READMEassets/todo3c.gif" alt=""/>
 </p>
 
