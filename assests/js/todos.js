@@ -1,17 +1,17 @@
 // Check off specific todos by clicking
-$("li").click(function () {
+$("ul").on("click", "li" ,function () {
     $(this).toggleClass("completed")
 });
 
 
 // click on X to delete todo
-$("span").click(function (event) {
+$("ul").on("click", "span" ,function (event) {
    $(this).parent().fadeOut(500, function () {
        // the above this refers to the span and .parent() makes it
        // work with the parent i.e <li>.
        // the fadeOut() is also working on parent <li> not on span
-       // $(this).remove(); is working on parent element not the span.
        $(this).remove();
+       // $(this).remove(); is working on parent element not the span.
    });
     event.stopPropagation()
 });
@@ -25,6 +25,6 @@ $("input[type='text']").keypress(function (event) {
         //To clear the input text from the input box
         $(this).val("");
         //create a new <li> and add to <ul>
-        $("ul").append("<li>"+todotext+"</li >")
+        $("ul").append("<li><span>X</span> "+todotext+"</li >")
     }
 });
