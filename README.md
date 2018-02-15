@@ -89,3 +89,26 @@ $("span").click(function (event) {
 });
 ```
 ![todo_deletion_functionality](READMEassets/todo3c.gif)
+
+
+* New step is to enable the functionality to add todo to list.
+
+```js
+//Adding todo to list
+$("input[type='text']").keypress(function (event) {
+    if (event.which === 13){
+        //grabbing new todo text from input
+        var todotext = $(this).val();
+        //create a new <li> and add to <ul>
+        $("ul").append("<li>"+todotext+"</li >")
+    }
+});
+```
+* But this has a major issue, because after adding the todo to the list the text still exists 
+  in the input text box.
+  
+<center>![text_box_input](READMEassets/todo4.gif)</center>
+<p align="center">
+  <img src = "READMEassets/todo3c.gif" alt/>
+</p>
+
