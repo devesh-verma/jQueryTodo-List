@@ -25,6 +25,10 @@ $("input[type='text']").keypress(function (event) {
         //To clear the input text from the input box
         $(this).val("");
         //create a new <li> and add to <ul>
-        $("ul").append("<li><span>X</span> "+todotext+"</li >")
+        $("ul").append("<li><span><i class=\"fa fa-trash\"></i></span> "+todotext+"</li >")
     }
+});
+
+$(".fa-pencil").click(function () {
+    $("input[type='text']").fadeToggle();
 });

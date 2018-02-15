@@ -172,3 +172,9 @@ $("ul").on("click", "span" ,function (event) {
   <img src = "https://github.com/devshiva619/jQueryTodo-List/blob/master/READMEassets/todo7.gif" alt=""/>
 </p>
 
+#### DONE !!!!
+
+<p align="center">
+  <img src = "https://github.com/devshiva619/jQueryTodo-List/blob/master/READMEassets/final.gif" alt=""/>
+</p>
+
