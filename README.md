@@ -109,6 +109,6 @@ $("input[type='text']").keypress(function (event) {
   
 <center>![text_box_input](READMEassets/todo4.gif)</center>
 <p align="center">
-  <img src = "READMEassets/todo3c.gif" alt/>
+  <img src = "https://github.com/devshiva619/jQueryTodo-List/blob/master/READMEassets/todo4.gif" alt=""/>
 </p>
 
