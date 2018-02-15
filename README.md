@@ -167,13 +167,13 @@ $("ul").on("click", "span" ,function (event) {
 * The above code `$("ul").on("click","li", function(){` and `$("ul").on("click", "span" ,function (event) {` add a listener to entire `<ul>` parent.
 
 * The `<li>` in the above line tell that whenever an `<li>` is clicked inside `<ul>` run the function, same is with `function 2`
-
 <p align="center">
   <img src = "https://github.com/devshiva619/jQueryTodo-List/blob/master/READMEassets/todo7.gif" alt=""/>
 </p>
 
-## DONE !!!!
+# CSS MAGIC AND 
 
+## DONE :)!!!!
 <p align="center">
   <img src = "https://github.com/devshiva619/jQueryTodo-List/blob/master/READMEassets/final.gif" alt=""/>
 </p>
