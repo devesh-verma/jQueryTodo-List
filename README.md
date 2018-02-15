@@ -1,6 +1,6 @@
 # jQueryTodo-List
 
-###Giving basic strike out and revert back functionality
+### Giving basic strike out and revert back functionality
 
 * Basic look of the page ![todo_page](READMEassets/todo1.png)
 
@@ -172,7 +172,7 @@ $("ul").on("click", "span" ,function (event) {
   <img src = "https://github.com/devshiva619/jQueryTodo-List/blob/master/READMEassets/todo7.gif" alt=""/>
 </p>
 
-#### DONE !!!!
+## DONE !!!!
 
 <p align="center">
   <img src = "https://github.com/devshiva619/jQueryTodo-List/blob/master/READMEassets/final.gif" alt=""/>
