@@ -88,7 +88,10 @@ $("span").click(function (event) {
     event.stopPropagation()
 });
 ```
-![todo_deletion_functionality](READMEassets/todo3c.gif)
+
+<p>
+  <img src = "https://github.com/devshiva619/jQueryTodo-List/blob/master/READMEassets/todo3c.gif" alt=""/>
+</p>
 
 
 * New step is to enable the functionality to add todo to list.
